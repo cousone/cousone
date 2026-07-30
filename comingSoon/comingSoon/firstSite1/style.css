@@ -1,0 +1,81 @@
+ h1, h3 {
+        color: rgb(99, 18, 192);
+        background-color: rgb(255, 224, 46);
+ }
+
+ h1, h2 {
+        font-family: "Lucida Handwriting";
+        text-align: center;
+ }
+        
+h1 {   
+        margin-top: 50px; 
+    }
+h2 {
+        color: rgb(189, 14, 180);
+    
+    }
+h3 {
+        text-align: left;
+        font-family: "Garamond";
+
+    }
+#firstimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+body {
+        background-color: rgb(255, 224, 46);
+        font-family: "Garamond";
+        font-size: medium;
+        text-align: left;
+        color:rgb(31, 3, 155);
+        font-size: 25px;
+    }
+ul {
+        list-style-type: square;
+        list-style-position: inside;
+
+    }
+
+ol li {
+    margin-left: 20px;
+    font-family: "Garamond";
+    font-size: medium;
+    color: rgb(31, 3, 155);
+    text-shadow: 1px 1px 1px;
+}
+
+img {
+    border-style: dotted double;
+    border-width: 5px;
+    border-color: rgb(8, 197, 211);
+    
+}
+#hearticon {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#listingtwo, #listingfour, #listingsix, #listingeight {
+    display: inline-block;
+    align-items: right;
+    justify-content: right;
+    vertical-align: baseline;
+}
+
+#listingone, #listingthree, #listingfive, #listingseven {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+#detailimg:hover {
+    opacity: 0.5;
+}
+
+
